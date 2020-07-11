@@ -1,2 +1,2 @@
-#!/bin/bash
-/bin/ls -lAsh $1 | awk 'FNR > 1 {print $10 " " $6}'
+# shellcheck disable=SC2012
+ls -lh "$1" | awk '{if (NR != 1) print $9, $5}'

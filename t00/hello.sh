@@ -1,1 +1,1 @@
-echo "Hello, superhero!" > greeting.txt
+echo 'Hello, superhero!' > greeting.txt

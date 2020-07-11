@@ -1,2 +1,1 @@
-#!/bin/zsh
-curl $1 > $2
+curl "$1" -o "$2"
