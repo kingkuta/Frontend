@@ -2,6 +2,15 @@ h1 {
 text-align: left;
 }
 
+#buttonRequest{
+    color: #2C7A14;
+}
+
+
+input[type="search"] {
+    color: green;
+}
+
 form {
     display: flex;
     flex-direction: row;
