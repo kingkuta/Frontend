@@ -1,0 +1,47 @@
+.table footer {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+img {
+	height: 120px;
+	width: 120px;
+	border-radius: 25px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.mainRow {
+  background-color: black;
+  color: white;
+  }
+
+.Soul {
+background-color: #CD8737;
+}
+
+.Time {
+	background-color: #2C7A14;
+}
+
+.Space {
+	background-color: #1A4F7E;
+}
+
+.Mind {
+	background-color: #F6F34F;
+}
+
+.Reality {
+	background-color: #B02C1B;
+}
+
+.Power {
+	background-color: #8464B4;
+}
+
