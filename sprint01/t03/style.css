@@ -1,33 +1,24 @@
-h1 {
-text-align: left;
+form {
+    line-height: 2em;
 }
 
-#buttonRequest{
-    color: #2C7A14;
+input {
+    padding-left: 10px;
+    width: 35%;
 }
 
 
-input[type="search"] {
+button {
     color: green;
 }
 
-form {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 100%;
+button:hover {
+    color: red;
+}
+input {
+    color: green;
 }
 
-.form-group {
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 50%;
+input:hover {
+    color: red;
 }
-
-.form-group input {
-    display: block;
-    margin-bottom: 10px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
