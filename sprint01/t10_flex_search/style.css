@@ -1,0 +1,12 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    display: flex;
+}
+
+label .search {
+    width: 100%;
+}

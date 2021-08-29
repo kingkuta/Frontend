@@ -1,0 +1,13 @@
+.image:hover {
+        -moz-transform: rotate(-30deg); /* Для Firefox */
+        -ms-transform: rotate(-30deg); /* Для IE */
+        -webkit-transform: rotate(-30deg); /* Для Safari, Chrome, iOS */
+        -o-transform: rotate(-30deg);
+        transform: rotate(-30deg);
+    }
+
+body {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,34 @@
+[master 277352d] hello
+ 28 files changed, 444 insertions(+)
+ create mode 100644 sprint00/t02_commit_history/his.txt
+ create mode 100644 sprint01/t00_welcome_heroes/assets/images/t01.jpg
+ create mode 100644 sprint01/t00_welcome_heroes/index.html
+ create mode 100644 sprint01/t01_infinity_table/assets/images/mind_stone.png
+ create mode 100644 sprint01/t01_infinity_table/assets/images/power_stone.png
+ create mode 100644 sprint01/t01_infinity_table/assets/images/reality_stone.png
+ create mode 100644 sprint01/t01_infinity_table/assets/images/soul_stone.png
+ create mode 100644 sprint01/t01_infinity_table/assets/images/space_stone.png
+ create mode 100644 sprint01/t01_infinity_table/assets/images/time_stone.png
+ create mode 100644 sprint01/t01_infinity_table/index.html
+ create mode 100644 sprint01/t02_infinity_style/assets/images/mind_stone.png
+ create mode 100644 sprint01/t02_infinity_style/assets/images/power_stone.png
+ create mode 100644 sprint01/t02_infinity_style/assets/images/reality_stone.png
+ create mode 100644 sprint01/t02_infinity_style/assets/images/soul_stone.png
+ create mode 100644 sprint01/t02_infinity_style/assets/images/space_stone.png
+ create mode 100644 sprint01/t02_infinity_style/assets/images/time_stone.png
+ create mode 100644 sprint01/t02_infinity_style/index.html
+ create mode 100644 sprint01/t02_infinity_style/style.css
+ create mode 100644 sprint01/t03_supersearch/index.html
+ create mode 100644 sprint01/t03_supersearch/style.css
+ create mode 100644 sprint01/t04_superhero_card/assets/images/Black-Widow.png
+ create mode 100644 sprint01/t04_superhero_card/assets/images/Captain-America.png
+ create mode 100644 sprint01/t04_superhero_card/assets/images/Iron-man.png
+ create mode 100644 sprint01/t04_superhero_card/assets/images/Spider-man.png
+ create mode 100644 sprint01/t04_superhero_card/index.html
+ create mode 100644 sprint01/t04_superhero_card/style.css
+ create mode 100644 sprint01/t12_japan/index.html
+ create mode 100644 sprint01/t12_japan/style.css
+[master 5af78c2] wooow
+ 1 file changed, 30 insertions(+)
+[master 4edf984] its me
+ 1 file changed, 2 insertions(+)

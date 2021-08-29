@@ -1,0 +1,77 @@
+/*
+OPEN ONLY IN SAFARI
+*/
+
+.cardOfSuperheroes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+div.superHeroes{
+    position: relative;
+    width: 270px;
+    height: 140px;
+    font-family: Verdana, Geneva, sans-serif;
+    border-radius: 5px;
+    margin: 50px 10px 30px;
+}
+
+h2 {
+
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 12px;
+    margin-right: 10px;
+
+}
+
+p {
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 25px;
+    right: 0;
+    font-size: 9px;
+    margin-right: 10px;
+}
+#captainAmerica {
+    background:linear-gradient(to bottom, #4568DC,#B06AB3);
+}
+
+div#captainAmerica.superHeroes img {
+    height: 182px;
+    bottom: 47px;
+    position: relative;
+}
+
+#ironMan {
+    background: linear-gradient(to right bottom, #e52d27,#b31217);
+}
+
+div#ironMan.superHeroes img {
+    height: 182px;
+    bottom: 47px;
+    position: relative;
+}
+
+#blackWindow {
+    background: linear-gradient(to right, #000,#61045F);
+}
+
+div#blackWindow.superHeroes img {
+    height: 182px;
+    bottom: 47px;
+    position: relative;
+}
+#spiderMan{
+    background: linear-gradient(to bottom, #e52d27,#000);
+}
+
+div#spiderMan.superHeroes img {
+    height: 182px;
+    bottom: 25px;
+    position: relative;
+}
+

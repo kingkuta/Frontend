@@ -1,0 +1,78 @@
+body {
+        font-family: sans-serif;
+        margin: 0;
+        background-image: url("https://images.unsplash.com/photo-1558981852-426c6c22a060?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2251&q=80");
+        -moz-background-size: 100%; /* Firefox 3.6+ */
+        -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+        -o-background-size: 100%; /* Opera 9.6+ */
+        background-size: 100%; /* Современные браузеры */
+}
+
+nav {
+    background: #413F3C;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    transition: .3s linear;
+}
+.itemMenu > li {
+    float: left;
+    position: relative;
+    border-left: 1px solid white;
+}
+
+#Gallery {
+    border-right: 1px solid white;
+}
+
+.itemMenu > li > a {
+    padding: 20px 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #FEFDFD;
+    letter-spacing: 2px;
+}
+
+.secondLevelMenu {
+    position: absolute;
+    min-width: 200px;
+    background: #413F3C;
+    border: 1px solid #CBCBCC;
+    visibility: hidden;
+    transform: rotateX(-90deg);
+    transition: .3s linear;
+}
+
+.secondLevelMenu li a {
+    color: #FEFDFD;
+    padding: 10px 20px;
+    font-size: 13px;
+    border-bottom: 1px solid #CBCBCC;
+}
+
+.secondLevelMenu .secondLevelMenu {
+    position: absolute;
+    left: 100%;
+    top: -1px;
+    transition: .3s linear;
+}
+
+nav li:hover > .secondLevelMenu {
+    transform: rotateX(0deg);
+    visibility: visible;
+    opacity: 1;
+}
