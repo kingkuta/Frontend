@@ -18,3 +18,9 @@ thead {
     padding-left: 50px;
     padding-right: 50px;
 }
+
+a {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
