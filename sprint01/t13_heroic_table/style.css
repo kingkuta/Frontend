@@ -1,26 +1,26 @@
-thead {
-    background: rgba(110,0,0,0.4);
-    color: #ffe369 ;
-    font-weight: bold;
-    padding: 10px;
-    border: 2px rgba(189, 195, 199, 0.05);
-}
-.tableFooter {
-    text-align: center;
-    background: rgba(110,0,0,0.4);
-}
+/*thead {*/
+/*    background: rgba(110,0,0,0.4);*/
+/*    color: #ffe369 ;*/
+/*    font-weight: bold;*/
+/*    padding: 10px;*/
+/*    border: 2px rgba(189, 195, 199, 0.05);*/
+/*}*/
+/*.tableFooter {*/
+/*    text-align: center;*/
+/*    background: rgba(110,0,0,0.4);*/
+/*}*/
 
-.columns {
-    color: midnightblue;
-    border: 2px rgba(189,195,199, 0.05);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
+/*.columns {*/
+/*    color: midnightblue;*/
+/*    border: 2px rgba(189,195,199, 0.05);*/
+/*    padding-top: 5px;*/
+/*    padding-bottom: 5px;*/
+/*    padding-left: 50px;*/
+/*    padding-right: 50px;*/
+/*}*/
 
-a {
-    padding: 10px;
-    color: white;
-    font-weight: bold;
-}
+/*a {*/
+/*    padding: 10px;*/
+/*    color: white;*/
+/*    font-weight: bold;*/
+/*}*/

@@ -9,63 +9,124 @@
 </head>
 <body>
 
-<h1>Settings</h1>
 
-    <div class="leftMenu">
-<div class="settings">
-        <div class="firstPart">
-            <div class="typeface">
-                <p>Typeface</p>
-                <label>
-                    <select>
-                        <option>Acunim Pro</option>
-                        <option>Comic Sans</option>
-                        <option disabled>Times New Roman</option>
-                    </select>
-                </label>
+<div class="mainDiv" >
+
+    <div>
+        <h1>Settings</h1>
+    </div>
+
+    <div class="mainWindow">
+
+        <div class="leftSettingsWindow">
+
+            <div class="typefaceDarkUI">
+
+                <div class="typeFace">
+                        <div>
+                        <p>Typeface</p>
+                        </div>
+                        <div>
+                        <label for="typeface">
+                            <select id="typeface">
+                            <option>Acunim Pro</option>
+                            <option>Comic Sans</option>
+                            <option disabled>Times New Roman</option>
+                            </select>
+                        </label>
+                        </div>
+                    </div>
+
+                <div class="darkUI">
+                        <div>
+                            <p>Dark UI</p>
+                        </div>
+                        <div>
+                            <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
             </div>
 
-            <p>Weight</p>
-            <input type="checkbox" id="Regular" name="Regular" value="Regular">
-            <label for="Regular"> Regular </label>
-            <input type="checkbox" id="Bold" name="Bold" value="Bold">
-            <label for="Bold"> Bold </label>
+            <div class="weightColor">
 
-            <div class="Size">
-                <p>Size</p>
-                <label>
-                    <input type="range" min="0" max="100" step="1" value="0">
-                </label>
+                <div class="weight">
+                    <div><p>Weight</p></div>
+                    <div style="height: 40px;">
+                    <input type="radio" id="Regular" name="weight">
+                    <label for="Regular"> Regular </label>
+                    <input type="radio" id="Bold" name="weight">
+                    <label for="Bold">Bold</label>
+                    </div>
+                </div>
+
+                <div class="color">
+                    <p>Color</p>
+                    <label>
+                        <input type="checkbox" value="orange" >
+                    </label>
+                    <label>
+                        <input type="checkbox" value="yellow" >
+                    </label>
+                    <label>
+                        <input type="checkbox" value="pink" >
+                    </label>
+                    <label>
+                        <input type="checkbox" value="red" >
+                    </label>
+                    <label>
+                        <input type="checkbox" value="blue">
+                    </label>
+                </div>
+            </div>
+
+            <div class="sizeEmpty">
+                <div class="size">
+                    <div><p>Size</p></div>
+                    <div>
+                    <label>
+                        <input type="range" min="0" max="100" step="1" value="0">
+                    </label>
+                    </div>
+                </div>
+
+                <div class="empty"></div>
             </div>
         </div>
 
-        <div class="secondPart">
+        <div class="rightSettingsWindow">
 
-            <div class="darkUI">
+            <div class="rightMenuEmpty" ></div>
 
-                <p>Dark UI</p>
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider round"></span>
-                </label>
-
+             <div class="firstItemRightMenu">
+                <div>
+<!--                    <img src="assets/images/Iron-man.png" alt="">-->
+                </div>
             </div>
 
+            <div class="secondItemRightMenu">
+                <div>
+<!--                    <img src="assets/images/Iron-man.png" alt="">-->
+                </div>
+            </div>
+
+            <div class="thirdItemRightMenu">
+                <div>
+<!--                    <img src="assets/images/Iron-man.png" alt="">-->
+                </div>
+            </div>
+
+            <div class="lastItemRightMenu">
+                <div>
+<!--                    <img src="assets/images/Iron-man.png" alt="">-->
+                </div>
+            </div>
+
+            <div class="lastMenuEmpty"></div>
         </div>
-</div>
-    <div class="rightMenu">
-        <div class="rightMenuImg">
-            <a href=""> <img src="assets/images/Iron-man.png" alt=""></a>
-        </div>
-        <div class="rightMenuImg">
-            <a href=""> <img src="assets/images/Iron-man.png" alt=""></a>
-        </div>
-        <div class="rightMenuImg">
-            <a href=""> <img src="assets/images/Iron-man.png" alt=""></a>
-        </div>
-        <div class="rightMenuImg">
-            <a href=""> <img src="assets/images/Iron-man.png" alt=""></a>
-        </div>
+
     </div>
 </div>
 
