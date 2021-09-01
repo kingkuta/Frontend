@@ -1,3 +1,8 @@
+.textIntoSize {
+    display: flex;
+}
+
+
 #typeface {
     color: rgb(196,197,199);
     background: rgb(48,58,67);
