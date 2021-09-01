@@ -185,3 +185,34 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
+
+.colorItem {
+    display: flex;
+    position: relative;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    margin-right: 15px;
+    width: 150px;
+    height: 2px;
+    background: rgb(56,67,78);
+    border-radius: 5px;
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: rgb(55, 188, 164);
+}
+
+input[type=range]::-webkit-slider-runnable-track  {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+}
