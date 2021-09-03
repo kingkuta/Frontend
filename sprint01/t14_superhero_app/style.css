@@ -1,0 +1,36 @@
+p {
+    display: inline-flex;
+}
+
+
+.textArea {
+    display: flex;
+    align-items: flex-end;
+}
+
+button {
+    background: white;
+    border-radius: 5px;
+}
+
+form {
+    padding: 20px;
+    border: 2px gray;
+}
+
+.slider {
+    -webkit-appearance: none;
+    height: 6px;
+    border-radius: 5px;
+    background: silver;
+    outline: none;
+    margin: 15px 0;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: gray;
+    cursor: pointer;
+}

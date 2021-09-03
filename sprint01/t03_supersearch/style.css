@@ -1,24 +1,26 @@
-form {
-    line-height: 2em;
-}
-
-input {
-    padding-left: 10px;
-    width: 35%;
-}
-
-
-button {
+input, button {
+    box-sizing: border-box;
+    padding: 0 10px 0 10px;
     color: green;
+    height: 2em;
+    border-radius: .2em;
+    float: left;
 }
-
-button:hover {
+input:hover, button:hover {
     color: red;
 }
-input {
-    color: green;
+
+.example {
+    width: 100%;
 }
 
-input:hover {
-    color: red;
+.example > input {
+    border: .2em solid #3063b5;
+    width: 93.5%;
+}
+
+.example > button {
+    border: 1px solid grey;
+    width: 6.5%;
+    border-left: none;
 }

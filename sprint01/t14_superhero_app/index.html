@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>superhero_app</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<h1>Superhero Form</h1>
+
+<form>
+    <fieldset>
+
+        <div class="mainForm">
+
+        <section class="aboutTheSuperhero">
+
+        <fieldset>
+
+            <legend>About the Superhero</legend>
+
+            <div class="aboutTheSuperhero">
+                <label for="realName">Real Name</label>
+                <input id="realName" type="text" placeholder="Superhero real name" autofocus>
+                <label for="superHeroName">Superhero Name</label>
+                <input id="superHeroName" type="text" placeholder="Superhero alias">
+                <label for="age">Age</label>
+                <input id="age" type="text" min="1" max="999">
+            </div>
+
+            <div class="textArea">
+                <p><label for="msg">About</label></p>
+                <p><textarea placeholder="Information about the superhero, max 500 symbols" id="msg" rows="5" cols="69" maxlength="500"></textarea></p>
+
+            </div>
+
+            <div>
+                <p>Photo:</p>
+                <p><button>Choose file</button></p>
+                <p>No file chosen</p>
+            </div>
+
+        </fieldset>
+
+        </section>
+
+        <section>
+            <fieldset>
+                <legend>Powers</legend>
+
+                    <div class="powers">
+
+                        <div>
+                            <p>
+                            <input id="telekinesis" type="checkbox">
+                            <label for="telekinesis" class="telekinesis">Telekinesis</label>
+                            </p>
+
+                            <p>
+                            <input id="ssos" type="checkbox">
+                            <label for="ssos" class="ssos">Super strength or speed</label>
+                            </p>
+
+                            <p>
+                            <input id="shapeshifting" type="checkbox"><label for="shapeshifting" class="shapeshifting">
+                            Shapeshifting</label>
+                            </p>
+
+                            <p>
+                            <input id="flight" type="checkbox"><label for="flight" class="flight">Flight</label>
+                            </p>
+
+                            <p>
+                            <input id="elementalControl" type="checkbox">
+                            <label for="elementalControl" class="elementalControl">Elemental control</label>
+                            </p>
+
+                            <p>
+                            <input id="other" type="checkbox"><label for="other" class="other">Other</label>
+                            </p>
+                        </div>
+
+                        <div>
+                            <label for="myRange">Level of control:</label>
+                            <input type="range" min="0" max="10" value="1" class="slider" id="myRange">
+                        </div>
+
+                    </div>
+
+            </fieldset>
+        </section>
+
+        <section class="originOfPowers">
+            <fieldset>
+
+                <legend>Origin of Power</legend>
+
+                    <p>
+                        <input type="radio" name="power" id="power_1" value="small">
+                        <label for="power_1">Unknown</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" name="power" id="power_2" value="medium">
+                        <label for="power_2">Freak lab accident</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" name="power" id="power_3" value="large">
+                        <label for="power_3">Chosen by an ancient wise being</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" name="power" id="power_4" value="large">
+                        <label for="power_4">The superhero is not human</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" name="power" id="power_5" value="large">
+                        <label for="power_5">Other</label>
+                    </p>
+
+            </fieldset>
+        </section>
+
+        <section class="buttons">
+            <p>
+            <button>
+                CLEAR
+            </button>
+            </p>
+            <p>
+            <button>
+                SEND
+            </button>
+            </p>
+        </section>
+    </div>
+
+    </fieldset>
+</form>
+
+
+</body>
+</html>

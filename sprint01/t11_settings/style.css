@@ -180,6 +180,7 @@ select::-ms-expand { /* For IE <= 11 */
 .purple {background: #ce62ca;}
 .yellow {background: #dbd868;}
 .orange {background: #d2815f;}
+
 /* ---------------------------------- select size */
 .slider {
   -webkit-appearance: none;
@@ -188,7 +189,6 @@ select::-ms-expand { /* For IE <= 11 */
   border-radius: 5px;
   background: #2b333a;
   outline: none;
-
   margin: 15px 0;
 }
 .slider::-webkit-slider-thumb {
