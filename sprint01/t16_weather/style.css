@@ -1,0 +1,19 @@
+thead tr th {
+    background-color: rgb(1,151,185);
+    color: white;
+    font-family: "Lato Regular";
+    font-size: 1.5em;
+}
+
+tfoot tr th{
+font-family:"Lato Bold";
+font-size: 2em;
+}
+
+tfoot tr th:after {
+    content: "\00B0";
+}
+
+.monday:hover {
+    background: #b31217;
+}
