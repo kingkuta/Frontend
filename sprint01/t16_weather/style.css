@@ -1,32 +1,39 @@
-/*thead tr th {*/
-/*    background-color: rgb(1,151,185);*/
-/*    color: white;*/
-/*    font-family: "Lato Regular", sans-serif;*/
-/*    font-weight: 700;*/
-/*    font-size: 1.5em;*/
-/*}*/
-
-/*tfoot tr th{*/
-/*    font-family:"Lato Bold", sans-serif;*/
-/*    font-weight: 400;*/
-/*    font-size: 2em;*/
-/*}*/
-
-/*tfoot tr th:after {*/
-/*    content: "\00B0";*/
-/*}*/
-
 .main {
     display: inline-flex;
+    width: 100%;
 }
+
+.main_sec {
+    margin-right: 5px;
+}
+
 .main_sec:hover {
-    box-shadow: 1px 1px 1px 1px lightblue;
-    padding: 5px;
+    -webkit-box-shadow: 0px 0px 0px 8px rgba(0, 1, 2, 0.2);
+    -moz-box-shadow: 0px 0px 0px 8px rgba(0, 1, 2, 0.2);
+    box-shadow: 0px 0px 5px 8px rgba(0, 1, 2, 0.2);
 }
+
 .data {
-    background-color: blue;
     text-align: center;
+    background-color: rgb(1,151,185);
     color: white;
+    font-family: "Lato Regular", sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
 }
 
+.temperature {
+    text-align: center;
+    font-family:"Lato Bold", sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}
 
+.temperature:after {
+    content: "\00B0";
+}
+
+img {
+    width: 150px;
+    height: 100px;
+}
