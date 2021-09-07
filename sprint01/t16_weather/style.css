@@ -1,19 +1,32 @@
-thead tr th {
-    background-color: rgb(1,151,185);
+/*thead tr th {*/
+/*    background-color: rgb(1,151,185);*/
+/*    color: white;*/
+/*    font-family: "Lato Regular", sans-serif;*/
+/*    font-weight: 700;*/
+/*    font-size: 1.5em;*/
+/*}*/
+
+/*tfoot tr th{*/
+/*    font-family:"Lato Bold", sans-serif;*/
+/*    font-weight: 400;*/
+/*    font-size: 2em;*/
+/*}*/
+
+/*tfoot tr th:after {*/
+/*    content: "\00B0";*/
+/*}*/
+
+.main {
+    display: inline-flex;
+}
+.main_sec:hover {
+    box-shadow: 1px 1px 1px 1px lightblue;
+    padding: 5px;
+}
+.data {
+    background-color: blue;
+    text-align: center;
     color: white;
-    font-family: "Lato Regular";
-    font-size: 1.5em;
 }
 
-tfoot tr th{
-font-family:"Lato Bold";
-font-size: 2em;
-}
 
-tfoot tr th:after {
-    content: "\00B0";
-}
-
-.monday:hover {
-    background: #b31217;
-}

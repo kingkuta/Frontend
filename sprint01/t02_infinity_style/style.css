@@ -17,12 +17,14 @@ img {
 }
 
 .mainRow {
-  background-color: black;
-  color: white;
+	color: white;
+	text-align: center;
+	background-color: black;
+	border: 1px solid red;
   }
 
 .Soul {
-background-color: #CD8737;
+	background-color: #CD8737;
 }
 
 .Time {
