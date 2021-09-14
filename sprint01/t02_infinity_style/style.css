@@ -21,6 +21,10 @@ img {
 	border-radius: 40px;
 }
 
+.linkLeft {
+	text-align: left;
+}
+
 #soul {
 	background-color:#cc944d;
 }

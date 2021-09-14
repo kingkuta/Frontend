@@ -1,10 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <title>t06: Superhero request form</title>
+    <meta charset="utf-8" >
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-$END$
+<h1>Superhero request form</h1>
+<h2>What do you need help with?</h2>
+
+<form action="/" method="post">
+    <div class="input-container">
+        <div>
+            <input id="vil" type="checkbox"><label for="vil">DEFEAT A VILLAIN</label>
+            <input id="civ" type="checkbox"><label for="civ">SAVE A CIVILIAN</label>
+            <input id="rob" type="checkbox"><label for="rob">STOP A ROBBERY</label>
+        </div>
+        <div>
+            <input id="apo" type="checkbox"><label for="apo">PREVENT AN APOCALYPSE</label>
+            <input id="sid" type="checkbox"><label for="sid">TRAIN A SIDEKICK</label>
+        </div>
+        <div>
+            <input id="oth" type="checkbox"><label for="oth">OTHER STUFF</label>
+        </div>
+    </div>
+    <br><br>
+    <div class="input-container">
+        <div>
+            <input type="text" name="job" maxlength="500" placeholder="&#8195;Job details">
+        </div>
+        <div>
+            <input class="input-name" type="text" name="name" maxlength="16" placeholder="&#8195;Name">
+            <input type="text" name="email" maxlength="30" placeholder="&#8195;Email">
+        </div>
+        <div>
+            <button type="submit">SEND</button>
+        </div>
+    </div>
+</form>
 </body>
+
 </html>

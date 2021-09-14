@@ -1,0 +1,80 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+    margin: 0 40px;
+}
+h1,
+h2 {
+    font-weight: 900;
+    font-size: 1.8em;
+}
+h1 {
+    color: #e67489;
+}
+h2 {
+    color: #838383;
+    text-align: center;
+}
+.input-container > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ----------------------------- label*/
+label {
+    width: 200px;
+    font-weight: 400;
+    text-align: center;
+    color: #838383;
+    border: 1px solid #838383;
+    border-radius: 25px;
+    margin: 10px 20px;
+    padding: 15px;
+}
+/* ----------------------------- label animation*/
+div > input[type=checkbox] {
+    position: absolute;
+    visibility: hidden;
+}
+div > input[type=checkbox]:checked + label {
+    border: 1px solid #1f2a4f;
+    background-color: #1f2a4f;
+    color: white;
+}
+div > input[type=checkbox]:checked + label:after {
+    content: "\2002✓";
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+/* ----------------------------- input, button*/
+button {
+    padding: 15px;
+    font-size: 0.8em;
+    font-weight: 700;
+    color: white;
+    background-color: #e67489;
+    border: none;
+}
+button:hover {
+    transition: 1s;
+    background-color: #1f2a4f;
+}
+
+input[type=text] {
+    height: 30px;
+    font-size: 1em;
+    color: #838383;
+    border: none;
+    border-bottom: 1px solid #838383;
+}
+.input-name {
+    margin-right: 30px;
+}
+div > input[type=text],
+div > button {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

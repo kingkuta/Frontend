@@ -1,0 +1,14 @@
+.image {
+    width: 250px;
+    height: 320px;
+    float: left;
+    margin: 4px 10px 5px 0;
+}
+
+@media print {
+ .image {
+     float: none;
+ }
+}
+
+@page { size: auto;  margin: 0; }  /* убираем колонтитул верхний и нижний в версии для печати

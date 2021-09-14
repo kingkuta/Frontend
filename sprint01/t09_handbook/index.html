@@ -7,7 +7,119 @@
 </head>
 
 <body>
+<h1>Handbook</h1>
 
+<h1>HTML</h1>
+
+<div class="boxholder">
+    <div class="box">
+        <p>div<br>defines a division or a section in an HTML document<br>align,title<br>&lt;div&gt;...&lt;/div&gt;</p>
+        <p class="like-a">Lorem ipsum.</p>
+    </div>
+    <div class="box">
+        <p>h1<br>The h1 to h6 tags are used to define HTML headings align<br>&lt;h1&gt;Title&lt;/h1&gt;</p>
+        <h1>Title</h1>
+
+    </div>
+    <div class="box">
+        <p>footer<br>Specifies the trailing area (footer) of a document or section.<br>---<br>&lt;footer&gt;content&lt;/footer&gt;</p>
+    </div>
+    <div class="box">
+        <p>main<br>specifies the main content of a document<br>---<br>&lt;main&gt;&lt;/main&gt;</p>
+    </div>
+    <div class="box">
+        <p>div<br>defines a division or a section in an HTML document<br>align,title<br>&lt;div&gt;...&lt;/div&gt;</p>
+        <p class="like-a">Lorem ipsum.</p>
+    </div>
+</div>
+
+<h1>CSS</h1>
+<div class="boxholder">
+    <div class="box">
+        <p>div<br><br><br><br><br><br><br><br>defines a division or a section in an HTML document<br>align,title<br>&lt;div&gt;...&lt;/div&gt;</p>
+        <p class="like-a">Lorem ipsum.</p>
+    </div>
+    <div class="box">
+        <p>h1<br>The h1 to h6 tags are used to define HTML headings align<br>&lt;h1&gt;Title&lt;/h1&gt;</p>
+        <h1>Title</h1>
+    </div>
+    <div class="box">
+        <p>footer<br>Specifies the trailing area (footer) of a document or section.<br>---<br>&lt;footer&gt;content&lt;/footer&gt;</p>
+    </div>
+    <div class="box">
+        <p>main<br>specifies the main content of a document<br>---<br>&lt;main&gt;&lt;/main&gt;</p>
+    </div>
+    <div class="box">
+        <p>div<br>defines a division or a section in an HTML document<br>align,title<br>&lt;div&gt;...&lt;/div&gt;</p>
+        <p class="like-a">Lorem ipsum.</p>
+    </div>
+    <div class="box">
+        <p>h1<br>The h1 to h6 tags are used to define HTML headings align<br>&lt;h1&gt;Title&lt;/h1&gt;</p>
+        <h1>Title</h1>
+    </div>
+</div>
+
+<h1>PROTOCOLS</h1>
+<div class="boxholder_large">
+    <div class="box">
+        <p>div<br><br><br><br><br><br><br><br>defines a division or a section in an HTML document<br>align,title<br>&lt;div&gt;...&lt;/div&gt;</p>
+        <p class="like-a">Lorem ipsum.</p>
+    </div>
+    <div class="box">
+        <p>h1<br>The h1 to h6 tags are used to define HTML headings align<br>&lt;h1&gt;Title&lt;/h1&gt;</p>
+        <h1>Title</h1>
+    </div>
+    <div class="box">
+        <h3>How DNS Works</h3>
+        <p>
+            DNS is a global system for translating IP addresses to human-readable domain names. When a user tries to access a web address like “example.com”, their web browser or application performs a DNS Query against a DNS server, supplying the hostname. The DNS server takes the hostname and resolves it into a numeric IP address, which the web browser can connect to.
+        </p>
+        <p>
+            A component called a DNS Resolver is responsible for checking if the hostname is available in local cache, and if not, contacts a series of DNS Name Servers, until eventually it receives the IP of the service the user is trying to reach, and returns it to the browser or application. This usually takes less than a second.
+        </p>
+        <p>
+            DNS Types: 3 DNS Query Types
+            There are three types of queries in the DNS system:
+        </p>
+        <p>
+            Recursive Query
+            In a recursive query, a DNS client provides a hostname, and the DNS Resolver “must” provide an answer—it responds with either a relevant resource record, or an error message if it can't be found. The resolver starts a recursive query process, starting from the DNS Root Server, until it finds the Authoritative Name Server (for more on Authoritative Name Servers see DNS Server Types below) that holds the IP address and other information for the requested hostname.
+        </p>
+        <p>
+            Iterative Query
+            In an iterative query, a DNS client provides a hostname, and the DNS Resolver returns the best answer it can. If the DNS resolver has the relevant DNS records in its cache, it returns them. If not, it refers the DNS client to the Root Server, or another Authoritative Name Server which is nearest to the required DNS zone. The DNS client must then repeat the query directly against the DNS server it was referred to.
+        </p>
+        <p>
+            Non-Recursive Query
+            A non-recursive query is a query in which the DNS Resolver already knows the answer. It either immediately returns a DNS record because it already stores it in local cache, or queries a DNS Name Server which is authoritative for the record, meaning it definitely holds the correct IP for that hostname. In both cases, there is no need for additional rounds of queries (like in recursive or iterative queries). Rather, a response is immediately returned to the client.
+        </p>
+        <p>
+            DNS Types: 3 Types of DNS Servers
+            The following are the most common DNS server types that are used to resolve hostnames into IP addresses.
+        </p>
+        <p>
+            DNS Resolver
+            A DNS resolver (recursive resolver), is designed to receive DNS queries, which include a human-readable hostname such as “www.example.com”, and is responsible for tracking the IP address for that hostname.
+        </p>
+        <p>
+            DNS Root Server
+            The root server is the first step in the journey from hostname to IP address. The DNS Root Server extracts the Top Level Domain (TLD) from the user’s query — for example, www.example.com —... provides details for the .com TLD Name Server. In turn, that server will provide details for domains with the .com DNS zone, including “example.com”.
+        </p>
+        <p>
+            There are 13 root servers worldwide, indicated by the letters A through M, operated by organizations like the Internet Systems Consortium, Verisign, ICANN, the University of Maryland, and the U.S. Army Research Lab.
+        </p>
+        <p>
+            Authoritative DNS Server
+            Higher level servers in the DNS hierarchy define which DNS server is the “authoritative” name server for a specific hostname, meaning that it holds the up-to-date information for that hostname.
+        </p>
+        <p>
+            The Authoritative Name Server is the last stop in the name server query—it takes the hostname and returns the correct IP address to the DNS Resolver (or if it cannot find the domain, returns the message NXDOMAIN).
+        </p>
+    </div>
+    <div class="box">
+        <p>main<br>specifies the main content of a document<br>---<br>&lt;main&gt;&lt;/main&gt;</p>
+    </div>
+</div>
 
 
 </body>

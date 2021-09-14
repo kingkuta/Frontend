@@ -1,0 +1,37 @@
+body {
+    margin: 40px;
+}
+
+div {
+    margin: 20px;
+}
+
+.box {
+    background-color: lightgray;
+    padding: 20px;
+    position: absolute;
+    left: 50px;
+    right: 50px;
+}
+
+.box::before {
+    content: "";
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -30px;
+    height: 118px;
+}
+
+.box::after {
+    content: "";
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -30px;
+    width: calc(100% + 60px);
+}
