@@ -1,0 +1,203 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html, body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    padding:0;
+    margin:0;
+    font-size: calc(1em + 1vw);
+}
+
+/*	=====================================================================
+									GENERAL
+	===================================================================== */
+
+
+/* ------ Backgrounds ------ */
+.website-background-black {
+    background: #010306;
+}
+
+/* ------ Colors ------ */
+.text-color-white {
+    color: #ffffff;
+}
+.text-color-red {
+    color: #ea0f1e;
+}
+.text-color-black {
+    color: #000000;
+}
+
+/* ------ Text styles ------ */
+.underline {
+    text-decoration: underline;
+}
+
+.hide-text-block {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Semibold', serif;
+    position: fixed;
+    line-height: 110%;
+    letter-spacing: -2px;
+    font-size: 18vmin;
+
+}
+
+/* ------ Links ------ */
+a, a:after, a:visited {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+}
+
+
+a.text-color-white, a.text-color-white:after, a.text-color-white:visited {
+    color: #ffffff;
+}
+
+a.text-color-red, a.text-color-red:after, a.text-color-red:visited {
+    color: #ea0f1e;
+}
+
+/* ------ Grid ------ */
+
+
+.max-width {
+    max-width: 68%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+    .max-width {
+        max-width: 86%;
+    }
+}
+
+/*	=====================================================================
+									HOMEPAGE
+	===================================================================== */
+
+.vertical-center {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items:   center;
+}
+
+.label-hello:after{
+    content:"Hello.";
+}
+.label-hello:hover:after{
+    content:"About";
+}
+.label-iam:after{
+    content:"I am";
+}
+.label-iam:hover:after{
+    content:"Work";
+}
+.label-samson:after{
+    content:"Samson";
+}
+.label-samson:hover:after{
+    content:"Contact";
+}
+
+
+.animate {
+    -webkit-animation:animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+    -moz-animation:animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation:animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+    -webkit-animation-fill-mode:backwards;
+    -moz-animation-fill-mode:backwards;
+    animation-fill-mode:backwards;
+}
+
+/* ------ Animation lft Menu ------ */
+@-webkit-keyframes animate {
+    0% {opacity: 0;-webkit-transform: translateY(100%);}
+    100% {opacity: 1;-webkit-transform: translateY(0%);}
+}
+
+
+
+/* ------ Delays ------ */
+.delay02 { -webkit-animation-delay: .2s; animation-delay: .2s;}
+.delay04 { -webkit-animation-delay: .4s; animation-delay: .4s;}
+.delay06 { -webkit-animation-delay: .6s; animation-delay: .6s;}
+.delay08 { -webkit-animation-delay: .8s; animation-delay: .8s;}
+.delay10 { -webkit-animation-delay: 1s; animation-delay: 1s;}
+.delay12 { -webkit-animation-delay: 1.2s; animation-delay: 1.2s;}
+
+/* ------ Background photo ------ */
+
+.bg-photo {
+    z-index: -8;
+    position: fixed;
+    top: -25%;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    background-image: url(assets/images/asamson3.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -webkit-animation:bg-photo 1.2s cubic-bezier(.5, .6, .6, 1);
+    -moz-animation:bg-photo 1.2s cubic-bezier(.5, .6, .6, 1);
+    animation:bg-photo 1.2s cubic-bezier(.5, .6, .6, 1);
+    -webkit-animation-fill-mode:backwards;
+    -moz-animation-fill-mode:backwards;
+    animation-fill-mode:backwards;
+}
+
+@-webkit-keyframes bg-photo {
+    0% {opacity: 0;transform: scale(1.1);}
+    100% {opacity: 1;transform: scale(1);}
+}
+
+@keyframes bg-photo {
+    0% {opacity: 0;transform: scale(1.1);}
+    100% {opacity: 1;transform: scale(1);}
+}
+@media screen and (max-width:480px) {
+    .bg-photo {
+        left: -8%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+
+

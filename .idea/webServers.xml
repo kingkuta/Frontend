@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="1b082850-59c2-4a90-93ac-58e13482059d" name="/bin/zsh" url="/bin/zsh">
-        <fileTransfer port="0" mountedRoot="" accessType="MOUNT" />
+        <fileTransfer mountedRoot="$PROJECT_DIR$/multilang" accessType="MOUNT" port="0" />
       </webServer>
     </option>
   </component>
