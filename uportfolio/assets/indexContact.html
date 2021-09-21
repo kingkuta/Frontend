@@ -49,32 +49,5 @@
 
 </div> <! end max-width ->
 
-
-
-<!-- Yall lazy load -->
-<script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
-<script src="../js/yall.min.js"></script>
-<script type="text/javascript">
-    document.addEventListener("DOMContentLoaded", yall);
-</script>
-
-
-<!-- Copy to clipboard -->
-<script src="../js/clipboard.min.js"></script>
-<script>
-    var clipboard = new ClipboardJS('.copy-email', {
-        text: function() {
-            return 'hello@dejan.works';
-        }
-    });
-    clipboard.on('success', function(e) {
-        console.log(e);
-    });
-    clipboard.on('error', function(e) {
-        console.log(e);
-    });
-</script>
-
-
 </body>
 </html>
