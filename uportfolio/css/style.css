@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'Medium';
-    src: url('assets/fonts/Graphik-Medium.eot');
+    src: url('../assets/fonts/Graphik-Medium.eot');
     url('assets/fonts/Graphik-Medium.woff') format('woff'), /* Modern Browsers */
     url('assets/fonts/Graphik-Medium.ttf') format('truetype'); /* Safari, Android, iOS */
     font-weight: 500;
@@ -439,7 +439,7 @@ video {
     right: -5%;
     bottom: 0;
     left: 35%;
-    background-image: url(assets/images/asamson3.png);
+    background-image: url(../assets/images/asamson3.png);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
