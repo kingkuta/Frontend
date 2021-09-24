@@ -1,3 +1,5 @@
+'use strict';
+
 let numberVal = 1;
 let bigIntVal = 1n;
 let stringVal = "me too";

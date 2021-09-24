@@ -1,3 +1,4 @@
+'use strict';
 let regexNumber = /^\d$/; /* проверка что это НЕ digit */
 
 function checkIdiom() {

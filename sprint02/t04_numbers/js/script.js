@@ -1,3 +1,4 @@
+'use strict';
 
 function checkDivision(beginRage, endRage) {
     beginRage = +prompt("Input beginRange from 1-100");

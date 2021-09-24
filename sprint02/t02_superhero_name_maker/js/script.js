@@ -1,3 +1,5 @@
+'use strict';
+
 let regexName = /^[a-zA-Z]+$/;
 let regexGender = /^(male|female|)$/i;
 let regexAge = /^[1-9]{1,5}$/;
