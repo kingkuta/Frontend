@@ -1,6 +1,4 @@
 'use strict';
-
-
 let regexName = /^[a-zA-Z]+$/;
 
 String.prototype.capitalize = function() {

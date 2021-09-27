@@ -393,10 +393,10 @@ video {
 .label-iam:hover:after{
     content:"Work";
 }
-.label-dejan:after{
+.label-samson:after{
     content:"Samson";
 }
-.label-dejan:hover:after{
+.label-samson:hover:after{
     content:"Contact";
 }
 
