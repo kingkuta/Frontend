@@ -8,6 +8,8 @@ function displayHeroes(team, universe, race, eyeColor, hairColor) {
     else alert("Didn't recognize!");
 }
 
+displayHeroes();
+
 // displayHeroes("S.H.I.E.L.D", "Marvel", "human", "green", "lightBrown/green");
 // displayHeroes("Justice League Of America", "DC Comics", "human", "blue", "black");
 // displayHeroes("Teen Titans", "DC Comics", "kryptonian", "blue", "black");

@@ -1,0 +1,4 @@
+function firstElements(arr, n) {
+
+}
+
