@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #222;
+}
+
+header {
+    background-color: #222222;
+    color: white;
+}
+
+.navbarMenu {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+label {
+    margin-left: 40px;
+}
+
+.leftMenu {
+    display: flex;
+    align-items: center;
+}
+
+.rightMenu {
+    display: flex;
+    align-items: center;
+}
+
+.site-title {
+    margin-right: 40px;
+}
+
+.rightMenu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
