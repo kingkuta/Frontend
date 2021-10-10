@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b1fce92-e1fd-4854-83b9-35c864fc2984" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/1066400.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../usoreReactTest/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../usoreReactTest/.idea/usoreReactTest.iml" beforeDir="false" />
@@ -44,6 +45,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -51,11 +53,11 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/style" />
       <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,7 +69,8 @@
       <option name="presentableId" value="Default" />
       <updated>1633809566375</updated>
       <workItem from="1633809567859" duration="617000" />
-      <workItem from="1633810624848" duration="10182000" />
+      <workItem from="1633810624848" duration="10596000" />
+      <workItem from="1633875050776" duration="2957000" />
     </task>
     <servers />
   </component>
