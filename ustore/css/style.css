@@ -45,7 +45,19 @@ label {
     margin-right: 40px;
 }
 
-a {
-    color: white;
+.mainContent {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.mainContent a {
     text-decoration: none;
+    color: black;
+}
+
+.firstRow {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
 }
