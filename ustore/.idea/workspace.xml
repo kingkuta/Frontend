@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b1fce92-e1fd-4854-83b9-35c864fc2984" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/1066400.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../usoreReactTest/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../usoreReactTest/.idea/usoreReactTest.iml" beforeDir="false" />
@@ -42,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -70,7 +69,9 @@
       <updated>1633809566375</updated>
       <workItem from="1633809567859" duration="617000" />
       <workItem from="1633810624848" duration="10596000" />
-      <workItem from="1633875050776" duration="2957000" />
+      <workItem from="1633875050776" duration="3032000" />
+      <workItem from="1633984209434" duration="540000" />
+      <workItem from="1633986600299" duration="414000" />
     </task>
     <servers />
   </component>

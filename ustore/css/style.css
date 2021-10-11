@@ -92,15 +92,16 @@ label {
 
 .container {
     width: 914px;
-    height: 558px;
+    height: 582px;
     border: 1px solid black;
     border-radius: 25px;
     margin-bottom: 10px;
 }
 
 .swiperContainer .container img {
+    margin-top: 40px;
     width: 914px;
-    height: 546px;
+    height: 502px;
     border-radius: 25px;
 }
 
