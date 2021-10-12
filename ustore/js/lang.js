@@ -9,13 +9,11 @@ const langArr = {
         "en": "Catalog",
         "ua": "Каталог",
     },
-
     "howToBuy": {
         "ru": "Как купить",
         "en": "How To buy",
         "ua": "Як придбати",
     },
-
     "about": {
         "ru": "Про нас",
         "en": "About",
