@@ -2,11 +2,19 @@ let aboutButton = document.querySelector('.lng-about');
 let catalogButton = document.querySelector('.lng-catalog');
 let howToBuyButton = document.querySelector('.lng-howToBuy');
 let contactsButton = document.querySelector('.lng-contacts');
+
+let catalogButtonToUp = document.querySelector('.buttonToUpCatalog');
+let howToBuyButtonToUp = document.querySelector('.buttonToUpHowToBuy');
+let aboutButtonToUp = document.querySelector('.buttonToUpAbout');
+let contactsButtonToUp = document.querySelector('.buttonToUpContacts');
+
+
 let aboutSection = document.querySelector('.aboutSection');
 let catalogSection = document.querySelector('.catalogSection');
 let howToBuySection = document.querySelector('.howToBuySection');
 let contactsSection = document.querySelector('.contactsSection');
 
+let mainSection = document.querySelector('header');
 
 function scrollTo(element) {
     window.scroll({
@@ -31,4 +39,20 @@ howToBuyButton.addEventListener('click', () => {
 
 contactsButton.addEventListener('click', () => {
     scrollTo(contactsSection);
+})
+
+catalogButtonToUp.addEventListener('click', () => {
+    scrollTo(mainSection);
+})
+
+howToBuyButtonToUp.addEventListener('click', () => {
+    scrollTo(mainSection);
+})
+
+aboutButtonToUp.addEventListener('click', () => {
+    scrollTo(mainSection);
+})
+
+contactsSection.addEventListener('click', () => {
+    scrollTo(mainSection);
 })
