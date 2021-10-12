@@ -53,6 +53,6 @@ aboutButtonToUp.addEventListener('click', () => {
     scrollTo(mainSection);
 })
 
-contactsSection.addEventListener('click', () => {
+contactsButtonToUp.addEventListener('click', () => {
     scrollTo(mainSection);
 })
