@@ -16,6 +16,7 @@ let contactsSection = document.querySelector('.contactsSection');
 
 let mainSection = document.querySelector('header');
 
+
 function scrollTo(element) {
     window.scroll({
             left: 0,

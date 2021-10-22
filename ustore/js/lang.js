@@ -27,7 +27,7 @@ const langArr = {
     "city": {
         "ru": "Киев",
         "en": "Kyiv",
-        "ua": "Киев",
+        "ua": "Київ",
     },
 }
 
