@@ -18,7 +18,7 @@ for (let i = 0; i <= liClassElements.length - 1; i++) {
     }
 }
 
-console.log(liClassElements[0].getAttribute("data-element"))
+console.log(liClassElements[1].getAttribute("data-element"))
 
 
 /*
