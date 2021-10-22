@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    box-sizing: border-box;
 }
 
 html, body {
@@ -114,6 +113,11 @@ label {
 /* ANIMATION */
 /* Slideshow */
 /* !!!!!!!!!!!!!!!!!!!!*/
+
+
+* {
+    box-sizing: border-box
+}
 
 /* Slideshow container */
 .slideshow-container {

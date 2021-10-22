@@ -28,6 +28,7 @@ function changeLanguage() {
         if (elem) {
             elem.innerHTML = langArr[key][hash];
         }
+
     }
 }
 
