@@ -1,8 +1,8 @@
 # ucode frontend !
-t00
-t01
-t02
-t03
-t04
-t05
-t06
+Sprint00 - done \
+Sprint01 - done \
+Sprint02 - done \
+uPortfolio - done \
+Sprint03 - in progress \
+uStore - soon
+
