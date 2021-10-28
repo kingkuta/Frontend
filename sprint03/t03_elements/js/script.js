@@ -1,24 +1,56 @@
 'use strict';
 
-let liClassElements = document.getElementsByTagName("li");
+function checkInput() {
 
-for (let i = 0; i <= liClassElements.length - 1; i++) {
-    if (liClassElements[i].className === "good") {
-    } else if (liClassElements[i].className === "evil") {
-    } else if (liClassElements[i].className !== "good" && liClassElements[i].className !== "") {
-        liClassElements[i].classList.remove(liClassElements[i].className)
-        liClassElements[i].classList.add("unknown");
-    } else {
-        liClassElements[i].classList.add("unknown");
+    let liClassElements = document.getElementsByTagName("li");
+
+    for (let i = 0; i <= liClassElements.length - 1; i++) {
+        if (liClassElements[i].className === "good") {
+        } else if (liClassElements[i].className === "evil") {
+        } else if (liClassElements[i].className !== "good" && liClassElements[i].className !== "") {
+            liClassElements[i].classList.remove(liClassElements[i].className)
+            liClassElements[i].classList.add("unknown");
+        } else {
+            liClassElements[i].classList.add("unknown");
+        }
+    }
+
+    for (let i = 0; i <= liClassElements.length - 1; i++) {
+        if (liClassElements[i].getAttribute("data-element") === null) {
+            liClassElements[i].setAttribute("data-element", "none");
+        }
     }
 }
-for (let i = 0; i <= liClassElements.length - 1; i++) {
-    if (liClassElements[i].getAttribute("data-element") === null) {
-        liClassElements[i].setAttribute("data-element", "none");
+
+function createDivs(chr, dataAttr) {
+    let node, arrPowers;
+
+    arrPowers = dataAttr.split(' ');
+
+    for (let i = 0; i < arrPowers.length; ++i) {
+        node = document.createElement('div');
+        node.className = `elem ${arrPowers[i]}`;
+        if (arrPowers[i] === 'none') {
+            let line = document.createElement('div');
+            line.className = `line`;
+            node.appendChild(line);
+        }
+        chr.appendChild(node);
     }
 }
 
-console.log(liClassElements[1].getAttribute("data-element"))
+function addPowers() {
+    let chr, attr;
+
+    for (let i = 0; (chr = document.getElementsByTagName('li')[i]); ++i) {
+        attr = chr.attributes;
+        checkInput();
+        chr.appendChild(document.createElement('br'));
+        createDivs(chr, chr.getAttribute('data-element'));
+    }
+}
+
+addPowers();
 
 
 /*
